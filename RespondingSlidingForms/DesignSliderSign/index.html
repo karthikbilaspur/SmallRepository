@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
+<head>
+    <meta charset="utf-8" />
+    <title>Login and Registration Form in HTML | KCS</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, 
+                                   initial-scale=1.0" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="title-text">
+            <div class="title login">KCS</div>
+            <div class="title signup">KCS</div>
+            <br /><br />
+        </div>
+        <div class="form-container">
+            <div class="slide-controls">
+                <input type="radio" name="slide" id="login" checked />
+                <input type="radio" name="slide" id="signup" />
+                <label for="login" class="slide login">Sign In</label>
+                <label for="signup" class="slide signup">Sign up</label>
+                <div class="slider-tab"></div>
+            </div>
+            <div class="form-inner">
+                <form action="#" class="login">
+                    <div class="field">
+                        <label for=""><strong>
+                              Email Address</strong>
+                          </label>
+                        <input type="text" placeholder="" required />
+                    </div>
+                    <br />
+                    <div class="field">
+                        <label><strong>Password</strong></label>
+                        <input type="password" placeholder="" required />
+                    </div>
+                    <br />
+                    <div class="field btn">
+                        <input type="submit" value="Login" />
+                    </div>
+                    <div class="signup-link">
+                        Don't Have Account? <a href="">Signup</a>
+                    </div>
+                </form>
+                <form action="#" class="signup">
+                    <div class="field">
+                        <label for=""><strong>
+                              Full Name</strong>
+                          </label>
+                        <input type="text" placeholder="" required />
+                    </div>
+                    <br />
+                    <div class="field">
+                        <label for=""><strong>
+                              Email Address</strong>
+                          </label>
+                        <input type="email" placeholder="" required />
+                    </div>
+                    <br />
+                    <div class="field">
+                        <label for=""><strong>
+                              Password</strong>
+                          </label>
+                        <input type="password" placeholder="" required />
+                    </div>
+                    <br />
+                    <div class="field btn">
+                        <input type="submit" value="Signup" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
